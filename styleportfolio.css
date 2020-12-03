@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Aclonica';font-size: 22px;
+}
+
+html{
+   
+    background: url(image_fond.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Aclonica';
+    font-size: 2em;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.photoprofile img{
+	border-radius: 50%;
+    border: rgba(125, 185, 246, 0.648) solid 5px;
+}
+
+h1{
+	font-family: 'Teko', sans-serif;
+	font-size: 4em;
+	letter-spacing:0.2em;
+}
+
+a{
+	color: white;
+	
+}
+
+body{
+	color: whitesmoke;
+}
+
+#corps {
+	display: flex;
+}
+
+aside {
+	background-color: rgba(196, 185, 185, .1);
+	flex: 1;
+	height: 300px;
+	padding:1%;	
+	border-radius: 3%;
+	text-align: center;
+}
+
+aside p{
+	text-align: justify;
+}
+
+nav{
+	flex: 4;
+}
+
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+a{
+	text-decoration: none;
+	color: lightskyblue;
+}
+
+
+
+/* animation menu nav*/
+
+#menu {
+	padding: 0px;
+    margin: 5% 0 10px 0;
+	position: relative;
+	
+}
+
+#menu li{
+	font-size: 50px;
+    display: block;
+}
+
+#menu li a{
+	text-align: center;
+	color: transparent;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 4px #fff;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.bmenu:hover li a{
+	text-shadow: 0px 0px 6px #fff;
+}
+
+#menu li a:hover{
+	color: #fff;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
+}
+
+/* animation menu nav fin */
+
+
+/* page mieux me connaitre*/
+
+
+#les_speculos {
+	background-color: rgba(232, 199, 176,.3);
+	padding: 0.5%;
+	margin: 0.5%;
+	font-family: 'Courier New', Courier, monospace;
+
+}
+
+#les_speculos #iframe{
+	border: 1px grey;
+}
+
