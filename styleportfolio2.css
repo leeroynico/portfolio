@@ -1,0 +1,45 @@
+
+ 
+section{
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#badminton{
+    grid-column: 3/4;
+}
+
+
+#menuhaut {
+	display: flex;
+	padding-top: 2%;
+}
+
+#menuhaut li {
+	padding-right: 120px;
+}
+
+article {
+    background-color: rgba(232, 199, 176, 0.452);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30% 70% 52% 48% ;
+    font-size: 0.6em;
+    color: rgb(216, 247, 244);
+    
+   
+   
+}
+iframe, article img {
+    height: 42%;
+    width: 42%;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+

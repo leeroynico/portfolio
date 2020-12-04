@@ -1,19 +1,36 @@
-
+/*font body*/
 body {
-    font-family: 'Aclonica';font-size: 22px;
+	font-family: 'Aclonica';
+	font-size: 2em;
+	color: whitesmoke;
 }
-
+/*background img*/
 html{
-   
     background: url(image_fond.jpg) no-repeat center fixed;
-    background-size: cover;
-    font-family: 'Aclonica';
-    font-size: 2em;
+    background-size: cover;  
+}
+/*general informations*/
+ul {list-style: none;}
+
+a {
+	text-decoration: none;
+	color: lightskyblue;
+}
+h1{
+	font-family: 'Teko', sans-serif;
+	font-size: 4em;
+	letter-spacing:0.2em;
 }
 
+#corps {
+	display: flex;
+}
+
+/*header*/
 header{
 	display: flex;
 	justify-content: space-between;
+	font-size: 0.6em;
 }
 
 .photoprofile img{
@@ -21,25 +38,18 @@ header{
     border: rgba(125, 185, 246, 0.648) solid 5px;
 }
 
-h1{
-	font-family: 'Teko', sans-serif;
-	font-size: 4em;
-	letter-spacing:0.2em;
+.photoprofile {
+	margin-top: 1%;
 }
 
-a{
-	color: white;
-	
+
+
+
+nav {
+	flex: 4;
 }
 
-body{
-	color: whitesmoke;
-}
-
-#corps {
-	display: flex;
-}
-
+/*aside*/
 aside {
 	background-color: rgba(196, 185, 185, .1);
 	flex: 1;
@@ -52,28 +62,6 @@ aside {
 aside p{
 	text-align: justify;
 }
-
-nav{
-	flex: 4;
-}
-
-
-ul {
-    list-style: none;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 5%;
-}
-
-
-a{
-	text-decoration: none;
-	color: lightskyblue;
-}
-
-
 
 /* animation menu nav*/
 
@@ -116,18 +104,4 @@ a{
 /* animation menu nav fin */
 
 
-/* page mieux me connaitre*/
-
-
-#les_speculos {
-	background-color: rgba(232, 199, 176,.3);
-	padding: 0.5%;
-	margin: 0.5%;
-	font-family: 'Courier New', Courier, monospace;
-
-}
-
-#les_speculos #iframe{
-	border: 1px grey;
-}
 
