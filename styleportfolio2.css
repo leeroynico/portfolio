@@ -1,19 +1,22 @@
+#menuhaut {
+	display: flex;
+    padding-top: 2%;
+    font-size: x-large;
+}
 
- 
+
 section{
     display: grid;
     grid-template-columns: 1fr 30px 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-top: 1%;
 }
 
 #badminton{
     grid-column: 3/4;
 }
-
-
-#menuhaut {
-	display: flex;
-	padding-top: 2%;
+#les_speculos{
+    grid-column: 1/2;
 }
 
 #menuhaut li {
@@ -23,20 +26,25 @@ section{
 article {
     background-color: rgba(232, 199, 176, 0.452);
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 30% 70% 52% 48% ;
-    font-size: 0.6em;
-    color: rgb(216, 247, 244);
-    
-   
-   
-}
-iframe, article img {
-    height: 42%;
-    width: 42%;
     border-radius: 5%;
+    font-size: 1.5em;
+    color: rgb(216, 247, 244);  
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    
 }
 
+article p{
+    text-align: justify;
+}
 
+article iframe {
+    padding-left: auto;
+    padding-right: auto;
+    width: 80%;
+    justify-items: center;
+}
 
 
 
