@@ -11,12 +11,14 @@ section{
     grid-template-rows: 1fr 1fr;
     margin-top: 1%;
 }
-
-#badminton{
+.article1 {
+    grid-column: 1/2;
+}
+.article2 { 
     grid-column: 3/4;
 }
-#les_speculos{
-    grid-column: 1/2;
+.article3 {
+     
 }
 
 #menuhaut li {
@@ -39,12 +41,15 @@ article p{
     text-align: justify;
 }
 
-article iframe {
-    padding-left: auto;
-    padding-right: auto;
-    width: 80%;
-    justify-items: center;
+article img{
+    border-radius: 10%;
 }
+
+#php {
+    margin-bottom: 20px;
+}
+
+
 
 
 
