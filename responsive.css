@@ -8,14 +8,37 @@
     #section {
         display: flex;
         flex-direction: column;
+        justify-content: start;
     }
     aside {
         font-size: 1em;
+
     }
     #menu li{
         font-size: 1em;
+        letter-spacing: 5px;
+        margin-top: none
+    }
+    #menu li a{
+        color: whitesmoke;
+        text-transform: uppercase;
+        text-shadow: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
     }
     
+.bmenu:hover li a{
+	text-shadow: none;
+}
+
+#menu li a:hover{
+	color: whitesmoke;
+	text-shadow: none;
+	padding-left: none;
+}
     
     
     }

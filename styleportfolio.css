@@ -1,3 +1,4 @@
+/*page index
 /*font body*/
 body {
 	font-family: 'Aclonica';
@@ -46,7 +47,7 @@ header h1{
 
 /*aside*/
 aside {
-	background-color: rgba(196, 185, 185, .1);
+	background-color: rgba(196, 185, 185, 0.267);
 	flex: 1;
 	padding:1%;	
 	border-radius: 5%;
