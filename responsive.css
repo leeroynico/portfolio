@@ -1,5 +1,22 @@
 @media screen and (max-width: 800px){    
 
-header h1{font-size: 2em;}
+    header h1{font-size: 1.6em;}
+    
+    .photoprofile img{
+        width: 60%;
+    }
+    #section {
+        display: flex;
+        flex-direction: column;
+    }
+    aside {
+        font-size: 1em;
+    }
+    #menu li{
+        font-size: 1em;
+    }
+    
+    
+    
+    }
 
-}
