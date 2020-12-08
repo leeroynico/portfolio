@@ -1,25 +1,30 @@
 @media screen and (max-width: 800px){    
-
-    header h1{font-size: 1.6em;}
+/*page index*/
+header h1{font-size: 1.6em;}
     
-    .photoprofile img{
+.photoprofile img{
         width: 60%;
-    }
-    #section {
+}
+#section {
         display: flex;
         flex-direction: column;
         justify-content: start;
     }
-    aside {
+aside {
         font-size: 1em;
 
     }
-    #menu li{
+#menu li{
         font-size: 1em;
         letter-spacing: 5px;
-        margin-top: none
-    }
-    #menu li a{
+        margin-top: none;
+        background:  rgba(125, 185, 246, 0.648);
+        padding: 2%;
+        width: 60%;
+        border-radius: 30%;
+}
+       
+#menu li a{
         color: whitesmoke;
         text-transform: uppercase;
         text-shadow: none;
@@ -28,6 +33,7 @@
         -o-transition: none;
         -ms-transition: none;
         transition: none;
+       
     }
     
 .bmenu:hover li a{
@@ -39,7 +45,52 @@
 	text-shadow: none;
 	padding-left: none;
 }
-    
-    
-    }
 
+footer{
+    font-size: 0.5em;
+}
+
+/*autes pages*/ 
+body{
+    width: 100%;
+}
+
+#menuhaut {
+    display: inline;
+    padding-top: none;
+    font-size: 1em;
+    margin-top: 0;    
+}
+
+#menuhaut li{padding-top: 3%; }
+
+section{
+    display: grid;
+    grid-template-columns: 10px 1fr 10px ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-size: 0.6em;
+    gap: 15px 2px;
+}
+.article1 {grid-column: 2/3;grid-row: 1; }
+.article2 {grid-column: 2/3;grid-row: 2;}
+.article3 {grid-column: 2/3; grid-row: 3;}
+.article4 {grid-column: 2/3; grid-row: 4;}
+
+section img,iframe {
+    transform: scale(0.8);
+}
+
+/*compétences*/
+h3 {
+    font-size: 2em;
+}
+
+.transversales h3{
+       line-height: 1.5em; 
+}
+/*meconnaître*/
+.intro {
+    font-size: 0.9em;;
+}
+
+}
