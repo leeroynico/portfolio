@@ -84,13 +84,17 @@ section img,iframe {
 h3 {
     font-size: 2em;
 }
+.transversales {
+    width: 100%;
+}
 
 .transversales h3{
        line-height: 1.5em; 
 }
 /*meconnaître*/
 .intro {
-    font-size: 0.9em;;
+    font-size: 0.9em;
+    width: 100%;
 }
 
 }
